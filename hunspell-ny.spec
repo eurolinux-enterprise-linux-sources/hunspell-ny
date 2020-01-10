@@ -2,7 +2,7 @@ Name: hunspell-ny
 Summary: Chichewa hunspell dictionaries
 Epoch: 1
 Version: 0.01
-Release: 5%{?dist}
+Release: 6%{?dist}
 Group: Applications/Text
 Source: http://extensions.services.openoffice.org/e-files/4052/0/hunspell-chichewa-ny-dict-%{version}.oxt
 URL: http://extensions.services.openoffice.org/en/project/chicspell
@@ -45,6 +45,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:0.01-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1:0.01-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
